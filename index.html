@@ -1,14 +1,187 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="assets/css/main.css"/>
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <title>ZOO ARCADIA</title>
-    </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  
+
+  <title> ZOO ARCADIA</title>
+</head>
+
 <body>
+  <!-- Affichage barre de navigation avec bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Zoo Arcadia Bretagne</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Habitats</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:votreadresse@mail.fr">Nous contacter</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- Affichage du titre "ZOO ARCADIA": <h1> ZOO ARCADIA</h1> -->
+
+
+  <!-- insertion du fil d'ariane "breadcrumb" -->
+  <main class="container">
+    <div class="row mt-3">
+      <nav class="col-12" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="./index.html">Accueil</a></li>
+          
+          <li class="breadcrumb-item active" aria-current="page">Evénements</li>
+        </ol>
+      </nav>
+    </div>
+  </main>
+
+
+
+  <!-- disposition des cartes : carte 1 Présentation du zoo -->
+
+
+  <div class="row justify-content-around custom-line">
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="card h-100">
+
+        <div class="card-body">
+          <h4 class="card-title">
+            <h3>Le Zoo Arcadia</h3>
+          </h4>
+          <p class="card-text">Le Zoo Arcadia est situé en France, à Paimpont près de la forêt de Brocéliande, en Bretagne depuis
+            1960. Le parc est ouvert toute l'année. Nous avons le souci permanent du bien-être de nos animaux. Le zoo est entièrement indépendant au niveau des énergies, 
+            et nous sommes fiers d'agir pour la préservation de la bioversité et des ressources de notre belle planète bleue. 
+          </p>
+          <a href="#"><img class="card-img-top" src="./src/images/Carte_Zoo.jpg" alt=""></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- disposition des cartes carte 2 Les animaux col-lg-3 col-md-4 col-sm-6 mb-4-->
+
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="card h-100">
+
+        <div class="card-body">
+          <h4 class="card-title">
+            <h3>Les animaux</h3>
+          </h4>
+          <p class="card-text">Une centaine d’animaux chouchoutés par nos équipes, peuplent le Zoo. Ils vous attendent!
+          </p>
+
+          <!-- futur Carousel d'images animaux-->
+          <a href="#"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt=""></a>
+
+
+
+
+
+
+          
+        </div>
+      </div>
+    </div>
+
+
+    <!-- disposition des cartes carte 3 Les habitats -->
+
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="card h-100">
+
+        <div class="card-body">
+          <h4 class="card-title">
+            <h3>Les habitats</h3>
+          </h4>
+          <p class="card-text">Les animaux évoluent dans une zone aménagée pour eux, qui réunit les conditions proches
+            de
+            leur milieu d’origine, afin de contribuer à leur santé morale et physique. Ces habitats sont:
+            <li> La forêt africaine</li>
+            <li> La prairie africaine</li> 
+            <li> La forêt asiatique</li>
+            <li> La volière tropicale</li>
+            <li> Le grand froid</li>
+          </p>
+          <a href="#"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt=""></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- disposition des cartes carte 4 Les services -->
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <div class="card h-100">
+
+        <div class="card-body">
+          <h4 class="card-title">
+            <h3>Les services</h3>
+          </h4>
+          <p class="card-text">Notre Zoo va vous faire vivre une expérience dont vous vous souviendrez pour les
+            décennies
+            à venir.
+            Pour améliorer encore votre visite, nous proposons plusieurs services:
+            <li> Restauration</li>
+            <li> Visite des habitats avec un guide (gratuit)</li> 
+            <li> Visite du zoo en petit train</li>
+          
+          
+          
+          </p>
+          <a href="#"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt=""></a>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+  <div class="col-lg-12 col-md-4 col-sm-6 mb-4">
+    <div class="card h-100">
+
+      <div class="card-body">
+        <h4 class="card-title">
+          <h3>Les avis de nos visiteurs</h3>
+        </h4>
+        <p class="card-text">Voici les commentaires sur le zoo</p>
+            
+      </div>
+    </div>
+  </div>
+
+  <!-- affichage des mentions légales en bas de page  -->
+  <div>
+    <footer class="site-footer">
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        Ce site n'est pas destiné à une utilisation commerciale - exercice étudiant- Organisme de formation Studi
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  
+
+
 
 </body>
-  </html>
+
+</html>

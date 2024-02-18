@@ -1,9 +1,16 @@
 
+// Définir la couleur de la barre de navigation bootstrap
+$primary:rgb(4, 70, 4);
 
-$primary:green;
-
+// Définir un espacement entre les items du menu de la navbar
+.navbar-nav > li{
+    padding-left:40px;
+    padding-right:40px;
+  }
+  
+// Définir une marge d'espacement sur les côtés du site web
 body{
-    padding: 10px; 
+    padding: 30px; 
 };
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
